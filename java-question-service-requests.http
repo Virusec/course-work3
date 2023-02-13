@@ -1,0 +1,23 @@
+### Добавить вопрос 1
+GET localhost:8080/exam/java/add?question=Как работает метод substring() внутри строки?&answer=Подстрока создает новый объект из исходной строки.
+
+### Добавить вопрос 2
+GET localhost:8080/exam/java/add?question=Что представляет ключевое слово super?&answer=Текущий экземпляр родительского класса.
+
+### Добавить вопрос 3
+GET localhost:8080/exam/java/add?question=Разница между массивом и ArrayList в Java?&answer=Первый - статический, второй - динамический.
+
+### Добавить вопрос 4
+GET localhost:8080/exam/java/add?question=К каким компонентам класса применима перегрузка в Java-программах?&answer=К методам и конструкторам класса.
+
+### Добавить вопрос 5
+GET localhost:8080/exam/java/add?question=Какой метод можно использовать для перехода к следующему элементу в коллекции?&answer=next().
+
+### Добавить вопрос test
+GET localhost:8080/exam/java/add?question=test?&answer=test.
+
+### Получить все вопросы
+GET localhost:8080/exam/java
+
+### Удалить вопрос test
+GET localhost:8080/exam/java/remove?question=test?&answer=test.
